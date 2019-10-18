@@ -26,8 +26,9 @@ def array_literal_matrix
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
   ]
-  literal_a[0].sort
-  literal_a[1].sort
+  2.times do |index|
+    literal_a[index] = literal_a[index].sort
+  end
   literal_a
 end
 
