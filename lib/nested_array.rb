@@ -20,7 +20,7 @@ def assembled_matrix
   CAMPS = [
     ENNET_HOUSE,
     ENFIELD_TENNIS_ACADEMY
-    ]
+  ]
 end
 
 def array_literal_matrix
